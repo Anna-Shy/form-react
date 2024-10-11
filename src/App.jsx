@@ -18,7 +18,8 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={router} basename="/form-react" />
+    // <RouterProvider router={router} basename="/form-react" />
+    <CalendarPage />
   );
 }
 
