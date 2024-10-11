@@ -23,7 +23,7 @@ export const CalendarPage = () => {
   const [currentEventId, setCurrentEventId] = useState(null);
 
   const handleSelectSlot = ({ start, end }) => {
-    setEventDetails({ title: "", end, color: "#000000" });
+    setEventDetails({ title: "", start, end, color: "#000000" });
     setIsEditing(false);
   };
 
