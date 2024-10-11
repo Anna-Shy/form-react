@@ -1,0 +1,27 @@
+@import "../../styles/variable.scss";
+
+.form {
+    position: absolute;
+    top: 350px;
+    left: -250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: $white_bg;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+    &-input {
+        border: none;
+        padding: 5px;
+    }
+
+    &-btn button {
+        display: flex;
+        gap: 10px;
+        background: transparent;
+        padding: 10px;
+        border: none;
+    }
+}

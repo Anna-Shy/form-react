@@ -1,0 +1,42 @@
+@import "../../styles/variable.scss";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $header_bg;
+    padding: 16px 20px;
+
+    .header__search {
+        border: none;
+        width: 60%;
+        padding: 20px 0;
+    }
+
+    .header__icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &-account {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .account-avatar {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .account-avatar img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import "../../styles/variable.scss";
+
+.aside {
+    background-color: $sidebar_bg;
+    color: $main_color;
+
+    .aside__title {
+        padding: 30px 20px;
+        letter-spacing: 3px;
+        font-weight: $font_bold;
+        text-transform: uppercase;
+        background-color: $sidebar_title_bg;
+    }
+
+    .aside__menu {
+        padding: 30px 20px;
+
+        .menu__list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            &-item {
+                .item-icon {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
