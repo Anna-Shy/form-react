@@ -2,7 +2,7 @@
   "name": "form-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anna-Shy.github.io/form-react",
+  "homepage": "https://Anna-Shy.github.io",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
